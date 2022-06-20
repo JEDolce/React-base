@@ -1,0 +1,39 @@
+.navbar {
+    height: 50px;
+    background-color: rgb(223, 78, 35);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.listItem {
+    margin-right: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.profile {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
